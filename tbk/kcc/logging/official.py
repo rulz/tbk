@@ -88,9 +88,6 @@ PAYMENT_FORMAT = (
     "          ;{pid:>12};   ;Filtro    ;Inicio                                  ;{date:<14};{time:<6};{request_ip:<15};OK ;                    ;Inicio de filtrado\n"  # noqa
     "          ;{pid:>12};   ;Filtro    ;tbk_param.txt                           ;{date:<14};{time:<6};{request_ip:<15};OK ;                    ;Archivo parseado\n"  # noqa
     "          ;{pid:>12};   ;Filtro    ;Terminado                               ;{date:<14};{time:<6};{request_ip:<15};OK ;                    ;Datos Filtrados con exito\n"  # noqa
-    "          ;{pid:>12};   ;sanitiza  ;inicio                                  ;{date:<14};{time:<6};{request_ip:<15};OK ;                    ;Entrando a sanitizacion\n"  # noqa
-    "          ;{pid:>12};   ;sanitiza  ;Array                                   ;{date:<14};{time:<6};{request_ip:<15};OK ;                    ;Arreglo de parametros OK.\n"  # noqa
-    "          ;{pid:>12};   ;sanitiza  ;Fin                                     ;{date:<14};{time:<6};{request_ip:<15};OK ;                    ;Sanitizacion exitosa\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;inicio                                  ;{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Parseo realizado\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Datos en datos/tbk_config.dat\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Mac generado\n"  # noqa
