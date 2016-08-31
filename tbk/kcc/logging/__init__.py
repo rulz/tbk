@@ -99,6 +99,7 @@ class Logger(object):
             transaction_id=confirmation.payload.transaction_id,
             request_ip=confirmation.request_ip,
             order_id=confirmation.order_id,
+            webpay_server=self.get_webpay_server(confirmation.commerce)
         )
         self.handler.log_confirmation(
             payload=confirmation.payload,
@@ -116,6 +117,7 @@ class Logger(object):
             transaction_id=confirmation.payload.transaction_id,
             request_ip=confirmation.request_ip,
             order_id=confirmation.order_id,
+            webpay_server=self.get_webpay_server(confirmation.commerce)
         )
         self.handler.log_error(
             payload=confirmation.payload,
