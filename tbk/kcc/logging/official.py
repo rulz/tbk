@@ -113,7 +113,6 @@ CONFIRMATION_FORMAT = (
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Datos listos para ser enviados\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Medio 2: Por redireccion\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Datos validados\n"  # noqa
-    "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Token={token:}\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Redireccion web\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Todo OK\n"  # noqa
     "          ;{pid:>12};   ;resultado ;Desencriptando                          ;{date:<14};{time:<6};{request_ip:<15};OK ;                    ;TBK_PARAM desencriptado\n"  # noqa
@@ -143,7 +142,6 @@ ERROR_FORMAT = (
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Datos listos para ser enviados\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Medio 2: Por redireccion\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Datos validados\n"  # noqa
-    "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Token={token:}\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Redireccion web\n"  # noqa
     "{transaction_id:<10};{pid:>12};   ;pago      ;{webpay_server:<40};{date:<14};{time:<6};{request_ip:<15};OK ;{commerce_id:<20};Todo OK\n"  # noqa
     "          ;{pid:>12};   ;resultado ;Desencriptando                          ;{date:<14};{time:<6};{request_ip:<15};OK ;                    ;TBK_PARAM desencriptado\n"  # noqa
